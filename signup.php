@@ -30,21 +30,21 @@
 <label>Country</label>
 <select class="form-control" name="user_country" requird>
 <option disabled="">Select a Country</option>
-<option disabled="">Pakistan</option>
-<option disabled="">United States Of America</option>
-<option disabled="">India</option>
-<option disabled="">UK</option>
-<option disabled="">Bangladash</option>
-<option disabled="">France</option>
+<option>Pakistan</option>
+<option>United States Of America</option>
+<option>India</option>
+<option>UK</option>
+<option>Bangladash</option>
+<option>France</option>
 </select>
 </div>
 <div class="form-group">
 <label>Gender</label>
 <select class="form-control" name="user_gender" requird>
 <option disabled="">Select your Gender</option>
-<option disabled="">Male</option>
-<option disabled="">Female</option>
-<option disabled="">Others</option>
+<option>Male</option>
+<option>Female</option>
+<option>Others</option>
 </select>
 </div>
 <div class="form-group">
@@ -53,9 +53,9 @@
 <div class="form-group">
 <button type="submit" class="btn btn-primary btn-block  btn-lg" name="sign_up">Sign Up</button>
 </div>
-<!--<?php
-include(signup_user.php);
-?>-->
+<?php
+include('signup_user.php');
+?>
 </form>
 <div class="text_center small custom" style="color:black; font-weight:bold; font-size:20px">Already have an Account? <a href="signin.php" style="color:#00cb82; font-weight:bold; font-size:20px">Signin here</a></div>
 </div>
