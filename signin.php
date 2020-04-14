@@ -27,9 +27,9 @@
 <div class="form-group">
 <button type="submit" class="btn btn-primary btn-block  btn-lg" name="sign_in">Sign In</button>
 </div>
-<!--<?php
-include(signin_user.php);
-?>-->
+<?php
+include('signin_user.php');
+?>
 </form>
 <div class="text_center small custom" style="color:black; font-weight:bold; font-size:20px">Don't have an Account? <a href="signup.php" style="color:#00cb82; font-weight:bold; font-size:20px">Create Account</a></div>
 </div>
